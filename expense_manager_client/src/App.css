@@ -1,0 +1,292 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Css for logo image in navbar  */
+.navbar-brand img{
+  height:2.5rem;
+  width:2.5rem;
+}
+
+/* CSS for Home Page */
+.home_area{
+  height:90vh;
+  width:100vw;
+  background-color:#f3f9ff;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.homeElement{
+  height:20vh;
+  width:40vw;
+  background-color:#d9ecff;
+  margin:0px auto;
+  border-radius: 8px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.homeheading{
+  padding-top:0.5rem;
+  text-align:center;
+}
+
+.user{
+  text-align:center;
+}
+
+.link{
+  margin:1.5rem auto;
+}
+
+.mrgn{
+  margin:2rem;
+}
+
+.linkforVerifiedUser{
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS for DashBoard */
+.dashboard{
+  height:90vh;
+  width:100vw;
+  background-color:#f3f9ff;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboardForm{
+  width: 40vw;
+  height: 60vh;
+  background-color:white;
+  border-radius:8px;
+  box-shadow: 5px 10px 18px #888888;
+  margin-top:10vh;
+}
+
+.UserInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.infoSection{
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+}
+
+.infoName{
+  margin-right: 0.5rem;
+}
+
+.infoSection p{
+  color:#419bca;
+}
+
+/* Css for Signup */
+
+
+.signup{
+  height:90vh;
+  width:100vw;
+  background-color: #f3f9ff;
+  display: flex;
+  justify-content: center;
+}
+.signupForm{
+  display: flex;
+  margin-top:5rem;
+  background-color: white;
+  height: 65vh;
+  border-radius:10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.registerForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signupTitle{
+  text-align: center;
+}
+.formGroup{
+  margin-bottom: 0.5rem;
+}
+.formLabel{
+  margin:0px 10px;
+}
+.formGroup input{
+  border:0px;
+  outline:none;
+  border-bottom: 2px solid black;
+}
+
+.submit{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signupPic{
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.submiButton{
+  background-color: #419bca;
+  border: 0px;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.submiButton:hover{
+  color:white;
+}
+
+::placeholder{
+  color:#419bca;
+}
+
+.loginShortcut{
+  color:#419bca;
+  text-decoration: none;
+}
+
+.loginShortcut:hover{
+  color:black;
+}
+
+
+
+/* Css for Login */
+
+.loginForm{
+  display: flex;
+  margin-top:5rem;
+  background-color: white;
+  height: 50vh;
+  width:25vw;
+  border-radius:10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.linkToSignup{
+  text-align: center;
+  margin-top:1rem;
+}
+
+.linkToSignup p{
+  margin:0px;
+}
+
+.signupShortcut{
+  text-decoration: none;
+}
+
+.signupShortcut:hover{
+  color:black;
+}
+
+
+
+/* Css For Contact page */
+
+.contactPage{
+  height: 90vh;
+  width:100vw;
+  background-color:#f3f9ff;
+  display: flex;
+  justify-content:center;
+}
+
+.contactCenter{
+  height:65vh;
+  width:60vw;
+  background-color:white;
+  margin-top:5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius:10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.contactHeading{
+  text-align: center;
+  margin-bottom:2rem;
+}
+
+.contactCredential input{
+  border: 0px;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin: 5px 10px;
+}
+#contactForm{
+  height: 56vh;
+}
+
+.contactText{
+  margin:20px 5px;
+  width:100%;
+  height:10vh;
+  resize:none;
+  border: 0px;
+  outline: none;
+}
+
+.contactformButton{
+  margin:0px auto;
+}
+
+.contact_submit{
+  background-color: #419bca;
+  border: 0px;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.contact_submit:hover{
+  color:white;
+}
