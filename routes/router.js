@@ -8,10 +8,6 @@ const router = express.Router();
 require("../Database/connect");
 const User = require("../model/userSchema");
 
-router.get('/', (req, res) => {
-    res.send('Welcome from router');
-});
-
 
 //route for Registration
 
